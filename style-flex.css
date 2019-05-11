@@ -1,0 +1,30 @@
+/*
+COLORS:
+
+Light green: #7ed56f
+Medium green: #55c57a
+Dark green: #28b485
+
+*/
+
+.big-box
+{
+  background-color:yellow;
+  height:200px;
+  width:1000px;
+  display:flex;
+  justify-content: flex-end;
+  align-items:center;
+}
+
+.small-box
+{
+  width:100px;
+  height:50px;
+  margin: 5px;
+}
+
+.box1 {background-color: red; flex-grow:1}
+.box2 {background-color: blue; order:+1;}
+.box3 {background-color: green; align-self:flex-start;}
+.box4 {background-color: orange; flex-basis:25%;}
